@@ -29,7 +29,7 @@ function init() {
   setTimeout(function(){
     $(".loading-div").fadeOut(500)
     $(".content").fadeIn(300);
-  }, 3000)
+  }, 2000)
 
 }
 
