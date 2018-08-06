@@ -1,0 +1,104 @@
+html,
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+.loading-div {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+  padding: 0 30%;
+  margin-top: 15%;
+}
+
+.list-head .panel-body {
+  border-bottom: 3px solid rgb(153, 106, 78);
+}
+
+.date-panel p {
+  text-align: right;
+  font-size: 20px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #b3b3b3;
+}
+
+.locate-panel div, .locate-panel h4 {
+  display: inline-block;
+}
+
+.pdto {
+margin: 0px 10px;
+}
+
+.locate-panel p {
+  display: block;
+  text-align: right;
+  font-size: 20px;
+  margin: 0px;
+  letter-spacing: 3px;
+  color: #b3b3b3;
+}
+
+.list-panel {
+  padding: 20px;
+}
+
+.list-kid {
+  font-size: 18px;
+}
+
+.list-node-title {
+  /* text-align: left; */
+  font-weight: bold;
+  border-bottom: 5px solid rgb(62, 69, 75);
+  /* padding-left: 10px; */
+  margin-bottom: 1px;
+}
+.list-panel {
+  cursor: pointer;
+}
+.list-panel.disabled {
+  cursor: not-allowed;
+}
+.list-panel:hover {
+  background-color: #f7f7f7;
+}
+.price::before, .total::before, .count::before{
+    content:"NT$ ";
+    color: rgb(132, 117, 78);
+    font-size: 14px;
+}
+.bs-text {
+  color: #f5577f;
+
+}
+.detail {
+  text-align: right;
+  font-size: 15px;
+}
+.list {
+  border-right:1px solid #ccc;
+  padding-right: 10px;
+}
+.order-detail {
+  text-align: left;
+  font-size: 18px;
+  color: #777;
+}
+.dep > p, .ret > p {
+  font-size: 12px;
+}
+.ret {
+  margin-top: 30px;
+}
+.count {
+  text-align: right;
+}
+.total {
+  text-align: right;
+  margin-top:20px;
+}
