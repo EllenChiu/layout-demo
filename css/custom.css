@@ -15,7 +15,7 @@ body {
 }
 
 .list-head .panel-body {
-  border-bottom: 3px solid rgb(153, 106, 78);
+  border-bottom: 3px solid #007fa0;
 }
 
 .date-panel p {
